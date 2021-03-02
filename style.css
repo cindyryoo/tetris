@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.score {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 2rem;
+}
+
+.playgound > ul {
+  border: 1px solid #333;
+  width: 250px;
+  height: 25px;
+}
+
+.playgound > ul > li {
+  width: 100%;
+  height: 25px;
+}
+
+.playgound > ul > li > ul {
+  display: flex;
+}
+
+.playgound > ul > li > ul > li {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #ccc;
+}
