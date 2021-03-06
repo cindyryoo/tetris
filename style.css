@@ -18,23 +18,27 @@ body {
   margin-bottom: 2rem;
 }
 
-.playgound > ul {
+.playground > ul {
   border: 1px solid #333;
   width: 250px;
-  height: 25px;
+  margin: 0 auto;
 }
 
-.playgound > ul > li {
+.playground > ul > li {
   width: 100%;
   height: 25px;
 }
 
-.playgound > ul > li > ul {
+.playground > ul > li > ul {
   display: flex;
 }
 
-.playgound > ul > li > ul > li {
+.playground > ul > li > ul > li {
   width: 25px;
   height: 25px;
   border: 1px solid #ccc;
+}
+
+.tree {
+  background: #67c23a;
 }
